@@ -1,0 +1,13 @@
+REPORT Z_COMANDOS_CASE.
+
+Data hoje TYPE c length 10.
+hoje = 'segunda'.
+
+Case hoje.
+  when 'segunda'.
+     Write: 'Começando a segunda'.
+  when 'sabado' or 'domingo' .
+     Write: 'Final de semana'.
+  when others.
+    Write: 'Hoje é', hoje.
+Endcase.
