@@ -1,0 +1,12 @@
+REPORT Z_COMANDOS_IF_ELSE.
+
+Data hoje TYPE c length 10.
+hoje = 'domingo'.
+
+if hoje = 'segunda'.
+  Write: 'Hoje é Segunda-feira.'.
+Elseif hoje = 'sabado' or hoje = 'domingo'.
+  Write: 'Estamos no final de semana.'.
+Else.
+Write: 'Hoje é.' , hoje.
+EndIf.
