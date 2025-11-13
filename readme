@@ -1,0 +1,46 @@
+# Estudos em SAP ABAP
+
+Material de apoio para acompanhar o curso [Curso SAP ABAP (Udemy)](https://www.udemy.com/course/curso_sapabap) e registrar anotações, exemplos e exercícios.
+
+## O que é ABAP?
+
+ABAP (Advanced Business Application Programming) é a linguagem de alto nível da SAP, classificada como 4ª geração. Surgiu na década de 80 focada em relatórios, mas hoje é amplamente usada para cargas em massa, cálculos específicos, integrações e customizações dentro do ecossistema SAP.
+
+## Público-alvo indicado
+
+- Profissionais novos em SAP ou estudantes de TI
+- Analistas de negócios e analistas de sistemas
+- Executivos de TI, gerentes de manutenção/operações
+- Consultores funcionais SAP e profissionais de infraestrutura
+- Desenvolvedores de outras linguagens e DBAs
+
+> **Pré-requisito recomendado:** noções básicas de lógica e alguma linguagem de programação.
+
+## Conteúdo do curso
+
+1. Conceitos do SAP e visão geral da plataforma
+2. Papel do ABAP dentro do ERP SAP
+3. Exploração do editor de código ABAP
+4. Tipos de dados, declaração de variáveis e constantes
+5. Operadores de comparação e lógicos
+6. Estruturas de controle: `IF ... ELSE`, `CASE`, `DO`, `WHILE`, `LOOP ... AT`
+7. Manipulação de textos (`STRLEN`, `FIND`, `CONCATENATE`, etc.)
+8. Operação do Dicionário de Dados (ABAP Dictionary)
+9. Técnicas de debug de programas ABAP
+10. Desenvolvimento de relatórios e listas
+
+## Como usar este repositório
+
+- Crie pastas ou arquivos para cada módulo/vídeo e registre anotações.
+- Armazene snippets ABAP relevantes com comentários explicando o contexto.
+- Documente dúvidas e soluções encontradas durante o estudo.
+- Adicione links complementares (blogs, notas SAP, fóruns) conforme necessário.
+
+## Próximos passos sugeridos
+
+1. Organize o ambiente (IDE ABAP, acesso a um sistema SAP ou trial).
+2. Atualize este README dinamicamente à medida que concluir os tópicos.
+3. Implemente exercícios simples para cada tema (relatórios, loops, manipulação de strings).
+4. Revise periodicamente suas notas e exemplos para consolidar o aprendizado.
+
+Bom estudo e bons códigos em ABAP!
