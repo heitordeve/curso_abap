@@ -1,0 +1,16 @@
+REPORT Z_AEREO8701.
+
+Data w_aereo type scarr. "workarea
+Data t_aereo type TABLE OF scarr."tabela interna
+
+" tabela interna lê as informações da tabela SCARR
+" workarea vai imprimir em tela as informaçõesobtidas da tabela interna t_aereo
+w_aereo-mandt = '001'.
+w_aereo-carrid = '2022'.
+w_aereo-carrname = 'LATAM'.
+w_aereo-currcode = 'BRZ'.
+
+Write: 'Mandante: ' ,w_aereo-mandt.
+Write: / 'ID: ' ,w_aereo-carrid.
+Write: / 'Cia Aerea: ' ,w_aereo-carrname.
+Write: / 'Código da moeda: ',w_aereo-currcode.
